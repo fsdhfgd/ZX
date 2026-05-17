@@ -2,6 +2,9 @@
   "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
   "name": "zx",
   "compatibility_date": "2025-05-17",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "main": "src/index.js",
 
   "assets": {
     "directory": ".",

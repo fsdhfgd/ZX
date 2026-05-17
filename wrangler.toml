@@ -1,11 +1,14 @@
-name = "ZX"
-compatibility_date = "2025-05-17"
-compatibility_flags = ["nodejs_compat"]
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "ZX",
+  "compatibility_date": "2025-05-17",
+  
+  // 把这些 JSON 文件作为静态资源提供
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS"
+  },
 
-# 关键配置：把当前目录作为静态资源目录
-[assets]
-directory = "."
-binding = "ASSETS"
-
-# 可选：添加一个简单的 Worker 入口（强烈推荐）
-main = "src/index.js"
+  // 可选：添加一个简单的 Worker 来美化路由（推荐）
+  "main": "src/index.js"
+}

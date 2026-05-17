@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
-  "name": "zx",
+  "name": "zx12",
   "compatibility_date": "2025-05-17",
   "compatibility_flags": ["nodejs_compat"],
 

@@ -1,0 +1,218 @@
+{
+  "//": "茄子库 Eggp 0615 配置 - 完全免费，请勿付费购买！[仅供学习使用，请勿用于违法用途]",
+  "spider": "http://47.120.41.246:8025/vip/jar/ouge.php",
+  "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
+  "lives": [
+    {
+      "name": "平台直播",
+      "type": 0,
+      "url": "http://47.120.41.246:8025/vip/jar/zb.php",
+      "playerType": 1
+    },
+    {
+      "name": "港澳台直播",
+      "type": 0,
+      "url": "http://rihou.cc:567/gggg.nzk",
+      "playerType": 1
+    }
+  ],
+  "sites": [
+    {
+      "key": "drpy_js_豆瓣",
+      "name": "💖公众号[慢放剧场]防失联💖",
+      "type": 3,
+      "api": "csp_Douban",
+      "jar": "http://47.120.41.246:8025/vip/jar/tan.php"
+    },
+    {
+      "key": "hpy_js_豆瓣[官]",
+      "name": "VIP豆瓣排行②",
+      "type": 3,
+      "api": "https://gitlab.com/duomv/dzhipy/-/raw/main/drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gitlab.com/duomv/dzhipy/-/raw/main/drpy_js/豆瓣[官].js"
+    },
+    {
+      "key": "配置中心",
+      "name": "❤配置┃中心",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "木偶",
+      "name": "💖木偶┃4K💖",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/jiandan1232/58/raw/master/pancms/muou.json"
+    },
+    {
+      "key": "二小",
+      "name": "💖二小┃4K弹幕💖",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/jiandan1232/58/raw/master/pancms/erxiao.json"
+    },
+    {
+      "key": "至臻",
+      "name": "💖至臻┃4K弹幕💖",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/jiandan1232/58/raw/master/pancms/Test.json"
+    },
+    {
+      "key": "玩偶",
+      "name": "💖玩偶┃4K弹幕💖",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/jiandan1232/58/raw/master/pancms/wanou.json"
+    },
+    {
+      "key": "皮皮虾",
+      "name": "皮皮虾❤免扫4K",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/ppx.py",
+      "ext": "http://154.94.224.98:8762"
+    },
+    {
+      "key": "电影先生",
+      "name": "🔥电影┃先生",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/EasyXC/EasyTVbox/main/jar/xyqxbpq.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "鹊桥影院",
+      "name": "🔥鹊桥┃2K",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/EasyXC/EasyTVbox/main/jar/xyqxbpq.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "腾腾",
+      "name": "🐧腾腾┃JX",
+      "type": 3,
+      "api": "http://rihou.cc:88/js/drpy2.min.js",
+      "ext": "http://rihou.cc:88/js/腾腾.js"
+    },
+    {
+      "key": "JINPAI",
+      "name": "🔥金牌┃1080P",
+      "type": 3,
+      "api": "csp_AppGetV2",
+      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
+    },
+    {
+      "key": "csp_Wwys",
+      "name": "🔥农民┃影视",
+      "type": 3,
+      "api": "csp_Wwys",
+      "ext": "https://vip.wwgz.cn:5200",
+      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
+    },
+    {
+      "key": "闪影",
+      "name": "🔥闪影┃秒播",
+      "type": 3,
+      "api": "csp_AppYs",
+      "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
+    },
+    {
+      "key": "荐片",
+      "name": "🔥荐片┃磁力",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "ext": "https://api.ztcgi.com"
+    },
+    {
+      "key": "骚火影视",
+      "name": "🔥骚火┃影视",
+      "type": 3,
+      "api": "csp_SaoHuo",
+      "playerType": 2,
+      "ext": "https://shdy5.us"
+    },
+    {
+      "key": "柠檬",
+      "name": "🔥柠檬┃影视",
+      "type": 3,
+      "api": "csp_Nmvod",
+      "playerType": 2
+    },
+    {
+      "key": "金牌PY",
+      "name": "🔥金牌PY┃1080P",
+      "type": 3,
+      "api": "csp_AppGetV2",
+      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
+    },
+    {
+      "key": "影港4K",
+      "name": "🔥影港┃4K",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "http://47.120.41.246:8025/vip/jar/xyqxbpq.jar"
+    },
+    {
+      "key": "哔哩小品",
+      "name": "😆哔哩┃小品相声",
+      "type": 3,
+      "api": "csp_Bili",
+      "playerType": 2
+    },
+    {
+      "key": "哔哩戏曲",
+      "name": "🎭哔哩┃戏曲",
+      "type": 3,
+      "api": "csp_Bili",
+      "playerType": 2
+    },
+    {
+      "key": "少儿",
+      "name": "👶少儿┃动画",
+      "type": 3,
+      "api": "csp_Bili",
+      "playerType": 2
+    },
+    {
+      "key": "本地",
+      "name": "📁本地包更新",
+      "type": 3,
+      "api": "csp_LocalFile"
+    }
+  ],
+  "parses": [
+    {"name": "Json聚合", "type": 3, "url": "Demo"},
+    {"name": "Web聚合", "type": 3, "url": "Web"},
+    {"name": "茶王解析", "type": 0, "url": "https://jx.bozrc.com:4433/player/?url="}
+  ],
+  "rules": [
+    {"name": "量子", "hosts": ["lz","vip.lz"], "regex": ["#EXT-X-DISCONTINUITY"]},
+    {"name": "暴风", "hosts": ["bfzy"], "regex": ["adjump"]}
+  ]
+}

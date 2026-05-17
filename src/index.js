@@ -1,14 +1,22 @@
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    const path = url.pathname;
+    let pathname = url.pathname;
 
-    // 自动加上 .json 后缀（友好访问）
-    if (path.endsWith('/') || !path.includes('.')) {
-      const jsonPath = path === '/' ? '/4kj.json' : path + '.json';
-      return env.ASSETS.fetch(new Request(jsonPath, request));
+    if (pathname === "/" || pathname === "") {
+      return env.ASSETS.fetch(new Request("/4kj.json", request));
     }
 
-    return env.ASSETS.fetch(request);
+    // 自动补全 .json 后缀
+    if (!pathname.endsWith(".json")) {
+      if (pathname.endsWith("/")) pathname = pathname.slice(0, -1);
+      pathname += ".json";
+    }
+
+    try {
+      return await env.ASSETS.fetch(new Request(pathname, request));
+    } catch (e) {
+      return new Response("404 - 文件不存在", { status: 404 });
+    }
   }
 };

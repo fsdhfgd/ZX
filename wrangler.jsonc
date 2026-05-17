@@ -3,6 +3,8 @@
   "name": "zx",
   "compatibility_date": "2025-05-17",
 
+  "main": "src/index.js",
+
   "assets": {
     "directory": ".",
     "binding": "ASSETS"

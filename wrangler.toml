@@ -1,4 +1,4 @@
-name = "zx"                                      # 改成小写
+name = "zx12"                                      # 改成小写
 compatibility_date = "2025-05-17"
 compatibility_flags = ["nodejs_compat"]
 

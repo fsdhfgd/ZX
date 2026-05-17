@@ -1,14 +1,11 @@
-{
-  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
-  "name": "ZX",
-  "compatibility_date": "2025-05-17",
-  
-  // 把这些 JSON 文件作为静态资源提供
-  "assets": {
-    "directory": ".",
-    "binding": "ASSETS"
-  },
+name = "ZX"
+compatibility_date = "2025-05-17"
+compatibility_flags = ["nodejs_compat"]
 
-  // 可选：添加一个简单的 Worker 来美化路由（推荐）
-  "main": "src/index.js"
-}
+# 关键：把当前目录的所有文件作为静态资源
+[assets]
+directory = "."
+binding = "ASSETS"
+
+# Worker 入口文件（必须要有）
+main = "src/index.js"

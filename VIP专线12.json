@@ -1,17 +1,13 @@
-//      >>> 当前时间是：2026-05-18 09:37:31 <<<
-//     关注微信公众号【太太太硬了】有惊喜哦！！！
-
-//     当前接口：https://tv.xn--yhqu5zs87a.top
+//     当前接口：长枪VIP专线
 {
-    "菜妮丝": "https://菜妮丝.top",
-    "友情提醒": "接口完全免费，切勿付费购买。",
+    "长枪VIP专线": "长枪VIP专线",
     "spider": "https://tv.菜妮丝.top/jar/fty0501.jar;md5;ee702f5f6eca6841835f5c14d05445d4",
     "logo": "https://q2.qlogo.cn/headimg_dl?dst_uin=524187805&spec=100",
     "wallpaper": "https://api.hanximeng.com/ranimg/?size=m",
     "sites": [
         {
-            "key": "豆瓣",
-            "name": "豆瓣┃推荐",
+            "key": "长枪VIP专线",
+            "name": "长枪VIP专线┃推荐",
             "type": 3,
             "api": "csp_DouDouGuard",
             "searchable": 0,

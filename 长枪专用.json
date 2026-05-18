@@ -1,9 +1,13 @@
-
-//  当前接口：长枪VIP专线
-
-{"storeHouse":[{"sourceName":" 长枪VIP专线
-","sourceUrl":"https://长枪vip专线.wufan.indevs.in/长枪VIP专线.json"},
-{"sourceName":" 长枪VIP专线
-1","sourceUrl":"https://长枪vip专线.wufan.indevs.in/长枪专用线路1.json"},
-]
+// 当前接口：长枪VIP专线
+{
+    "storeHouse": [
+        {
+            "sourceName": "长枪VIP专线",
+            "sourceUrl": "https://长枪vip专线.wufan.indevs.in/长枪VIP专线.json"
+        },
+        {
+            "sourceName": "长枪VIP专线1",
+            "sourceUrl": "https://长枪vip专线.wufan.indevs.in/长枪专用线路1.json"
+        }
+    ]
 }

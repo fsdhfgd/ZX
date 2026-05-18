@@ -18,8 +18,8 @@
   ],
   "sites": [
     {
-      "key": "drpy_js_豆瓣",
-      "name": "💖公众号[慢放剧场]防失联💖",
+      "key": "长枪VIP专线",
+      "name": "💖长枪VIP专线💖",
       "type": 3,
       "api": "csp_Douban",
       "jar": "http://47.120.41.246:8025/vip/jar/tan.php"

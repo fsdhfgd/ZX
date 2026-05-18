@@ -1,4 +1,5 @@
 // 长枪VIP专线
+{
   "wallpaper": "https://wp.upx8.com/api.php",
   "spider": "./custom_spider.jar;md5;58a6e012f4b819e573af3b2515c61dcf",
   "lives": [
@@ -30,7 +31,7 @@
   "sites": [
     {
       "key": "csp_LocalFile",
-      "name": "长枪VIP专线",
+      "name": "本地文件",
       "type": 3,
       "api": "csp_LocalFile",
       "searchable": 0,
@@ -38,8 +39,8 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_豆瓣",
-      "name": "豆瓣[js]",
+      "key": "长枪VIP专线",
+      "name": "长枪VIP专线",
       "type": 3,
       "api": "./dr_py/libs/drpy2.min.js",
       "ext": "./dr_py/js/drpy.js"
@@ -208,7 +209,6 @@
       "filterable": 1,
       "ext": "./XYQHiker/斗鱼直播.json"
     }
-    // 还有大量 drpy_js、XYQHiker 动漫/短剧/教育站点...
   ],
   "parses": [
     {
@@ -226,10 +226,7 @@
       "type": 0,
       "url": "https://jx.xmflv.com/?url="
     }
-    // 还有淘片、冰豆、77解析、盘古、夜幕等线路...
   ],
   "flags": ["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi"],
-  "rules": [
-    // 包含暴风、量子、索尼等嗅探规则...
-  ]
+  "rules": []
 }

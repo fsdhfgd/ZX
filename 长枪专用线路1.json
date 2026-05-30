@@ -2,7 +2,7 @@
     "urls": [
         {
             "url": "",
-            "name": "普通1"
+            "name": "普通无"
         },
         {
             "url": "https://esdfs.jiangqti.dpdns.org/0821.json",
@@ -37,8 +37,8 @@
             "name": "普通9"
         },
         {
-            "url": "https://esdfs.jiangqti.dpdns.org/dianshi.json",
-            "name": "普通10"
+            "url": "",
+            "name": "普通无"
         },
         {
             "url": "https://esdfs.jiangqti.dpdns.org/fty.json",
@@ -50,7 +50,7 @@
         },
         {
             "url": "",
-            "name": "普通13"
+            "name": "普通无"
         }
     ]
 }

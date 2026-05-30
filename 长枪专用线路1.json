@@ -1,45 +1,56 @@
 {
     "urls": [
-           
-{
-            "url": "https://vfgb.jiangqti.dpdns.org/0821.json",
+        {
+            "url": "https://esdfs.jiangqti.dpdns.org/0707.json",
             "name": "普通1"
         },
- {
-            "url": "https://vfgb.jiangqti.dpdns.org/0826.json",
+        {
+            "url": "https://esdfs.jiangqti.dpdns.org/0821.json",
             "name": "普通2"
         },
-
- {
-            "url": "https://vfgb.jiangqti.dpdns.org/jsm.json",
+        {
+            "url": "https://esdfs.jiangqti.dpdns.org/0825.json",
             "name": "普通3"
         },
- {
-            "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top/",
+        {
+            "url": "https://esdfs.jiangqti.dpdns.org/0826.json",
             "name": "普通4"
         },
- {
-            "url": "http://www.饭太硬.net/tv",
+        {
+            "url": "https://esdfs.jiangqti.dpdns.org/0827.json",
             "name": "普通5"
         },
-{
-            "url": "https://tvbox.xn--11x555b.top/%E8%9C%97%E7%89%9B%E5%BD%B1%E8%A7%86",
+        {
+            "url": "https://esdfs.jiangqti.dpdns.org/367.json",
             "name": "普通6"
         },
         {
-            "url": "https://tv.xn--yhqu5zs87a.top/",
+            "url": "https://esdfs.jiangqti.dpdns.org/9918.json",
             "name": "普通7"
+        },
+        {
+            "url": "https://esdfs.jiangqti.dpdns.org/99188.json",
+            "name": "普通8"
+        },
+        {
+            "url": "https://esdfs.jiangqti.dpdns.org/XYQ.json",
+            "name": "普通9"
+        },
+        {
+            "url": "https://esdfs.jiangqti.dpdns.org/dianshi.json",
+            "name": "普通10"
+        },
+        {
+            "url": "https://esdfs.jiangqti.dpdns.org/fty.json",
+            "name": "普通11"
+        },
+        {
+            "url": "https://esdfs.jiangqti.dpdns.org/js.json",
+            "name": "普通12"
+        },
+        {
+            "url": "https://esdfs.jiangqti.dpdns.org/jsm.json",
+            "name": "普通13"
         }
     ]
-
 }
-
-
-
-
-
-
-
-
-
-
